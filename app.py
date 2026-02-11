@@ -1,3 +1,5 @@
-from generator import generate
+import pandas as pd
 
-generate()
+data = pd.read_csv("Data/data.csv")
+
+print(data)
